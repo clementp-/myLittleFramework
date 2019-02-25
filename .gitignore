@@ -1,5 +1,5 @@
 # Ignore le fichier de congif
 config.php
-upload/*
-!upload/thumbs/
-upload/thumbs/*
+/upload/*
+!/upload/thumbs/
+/upload/thumbs/*
