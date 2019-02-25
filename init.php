@@ -27,7 +27,8 @@ try {
 
 //start////////////////////////////////
 //Initialisation des sessions et variables
-$msgs              = get_messages();
+$msgs = get_messages();
 
-if(!isset($_SESSION['userId']))
-  $_SESSION['userId'] = false;
+if(!isset($_SESSION['userId'])) {
+    $_SESSION['userId'] = false;
+}
