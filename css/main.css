@@ -1,0 +1,118 @@
+html{
+	font-size: 100%;
+}
+
+body{
+	font-size: 1em; /* 16px en html 100%*/
+	line-height: 1.5;
+	font-family: sans-serif;
+	background-color: #f1f1f1;
+	padding: 1em;
+}
+
+a{
+	color: grey;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 1.6em;
+	color: grey;
+	max-width: 500px;
+	margin: 0 0 1.25em -1.25em;
+	padding: .45em .45em .45em 1.5em;
+	background: -webkit-linear-gradient(left, #f1f1f1 0%, #ffffff 100%);
+	background: -o-linear-gradient(left, #f1f1f1 0%, #ffffff 100%);
+	background: linear-gradient(to right, #f1f1f1 0%, #ffffff 100%);
+}
+
+h2{
+	font-size: 1.2em;
+	color: grey;
+	max-width: 500px;
+	margin: 3em 0 1.25em 0;
+	padding: .45em .45em .45em 1.5em;
+	border-radius: 1em 0 0 1em;
+	background: -webkit-linear-gradient(left, #f1f1f1 0%, #ffffff 100%);
+	background: -o-linear-gradient(left, #f1f1f1 0%, #ffffff 100%);
+	background: linear-gradient(to right, #f1f1f1 0%, #ffffff 100%);
+}
+
+header{
+	font-size: 2.5em; /* 40px */
+	text-align: center;
+	margin: 0.8em;
+	color: grey;
+}
+
+nav{
+	width: 90%;
+	margin: auto;
+}
+
+	nav ul{
+		padding: .5em;
+		text-align: center;
+	}
+
+		nav ul li{
+			display: inline-block;
+			padding: .5em 1em;
+			margin: .5em;
+			border-radius: .5em;
+			background-color: #e1e1e1;
+		}
+
+main{
+	background-color: #fff;
+	overflow: hidden;
+	width: 90%;
+	margin: auto;
+	padding: 1.5em;
+	border-radius: .5em;
+}
+
+section{
+	padding: .5em;
+}
+
+p{
+	margin: 1em;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	padding: 1.25em;
+	color: grey
+}
+
+.msgs{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #fff;
+}
+
+.msgs .error{
+	background-color: #d37c7c;
+	margin: 0;
+	padding: .5em;
+	color: #fff;
+}
+
+
+
+/*////////////////////////////////////////
+// Page Compte / account
+///////////////////////////////////////*/
+.account{
+
+}
+
+.account .avatar{
+	float: left;
+	margin-right: 1em;
+}

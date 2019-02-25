@@ -1,0 +1,18 @@
+<?php
+
+//////////////////////////////////////////////
+// Configuration ⤵
+//////////////////////////////////////////////
+$config['pageTitle'] = $liens['account']['title'];
+$config['metaDesc']  = '';
+$config['keywords']  = '';
+$config['metaRobot'] = 'none';
+
+
+//////////////////////////////////////////////
+// Controller ⤵
+//////////////////////////////////////////////
+
+$userInfo = getInDb('all', DB_USERS, ['id' => $_SESSION['userId']], false, '', 'fetch');
+
+?>
